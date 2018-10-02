@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title><la:message key="labels.search_title" /></title>
+<title>POASearch</title>
 <c:if test="${osddLink}">
 	<link rel="search" type="application/opensearchdescription+xml"
 		href="${fe:url('/osdd')}"
@@ -164,3 +164,4 @@
 	<script type="text/javascript" src="${fe:url('/js/index.js')}"></script>
 </body>
 </html>
+
